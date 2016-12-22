@@ -1,0 +1,354 @@
+/* LIT Home Page */
+
+.recent-news-date {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.image-centered {
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    border-radius: 15px;
+}
+
+#index_content {
+    margin-top: 20px;
+}
+
+#about_lit {
+    float: left;
+    width: 46%;
+    text-align: justify;
+    margin-left: 2%;
+}
+
+#recent_news {
+    float: right;
+    width: 46%;
+    margin-right: 2%;
+}
+
+p.lead {
+    font-size: 17px;
+}
+
+p.lead-slim {
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+p.lead-slim-indent {
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.2;
+  text-indent: 2em;
+}
+
+p.lead-slim-bottom {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+p.lead-slim-indent-bottom {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.2;
+  text-indent: 2em;
+}
+
+p.bibtex {
+    font-family: "Courier New";
+}
+
+#recent_news_heading {
+    font-size: 30px;
+}
+
+/* LIT Publications Page */
+.link-no-underline:link {
+    text-decoration: none;
+}
+
+.link-no-underline:hover {
+    text-decoration: underline;
+}
+
+/* LIT Projects Page */
+
+#project-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto 0 auto;
+    width: 70%;
+}
+
+#project-list li {
+    border: 2px solid #797979;
+    background-color: #e7e7e7;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 4px;
+    
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 1;
+}
+
+#project-list a {
+    color: #000;
+}
+
+.image-centered {
+    left: auto;
+    right: auto;
+}
+
+/* LIT Event Page */
+
+#sub_navbar {
+    background-color: transparent;
+    display: table;
+    margin: 0 auto;
+    margin-bottom: 2em;
+}
+
+#sub_navbar_ul {
+    min-width: 100%;
+	list-style: none;
+}
+
+#sub_navbar_ul li {
+    display: inline;
+}
+
+#sub_navbar_ul li.active {
+    background-color: transparent;
+}
+
+#wmdd h3 a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* LIT NLP Reading Group Page */
+
+.centered {
+    text-align: center;
+}
+
+.underlined {
+    text-decoration: underline;
+}
+
+#reading-group-table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+#reading-group-table tr th {
+    padding: 1em 1em 0 1em;
+}
+
+#reading-group-table tr td {
+    padding: 1em 1em 1em 1em;
+}
+
+#reading-group-table tr {
+    border-bottom: 1px solid #B8B8B8;
+}
+
+#col1 {
+    width: 12%;
+}
+
+#col2 {
+    width: 15%;
+}
+
+#col3 {
+    width: 63%;
+}
+
+#col4 {
+    width: 10%;
+}
+
+/* LIT Downloads Page */
+
+#downloads-outline {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+}
+
+#top-margin {
+    margin-top: 10px;
+}
+
+#all-downloads h3 a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.red {
+    color: red;
+}
+
+/* Girls Encoded Main Page */
+
+#myCarousel {
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#myCarousel .item {
+    height: 300px;
+    background-color: #FFF;
+}
+
+#myCarousel .carousel-inner > .item > img {
+    height: 300px;
+    min-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+#myCarousel .carousel-control.left {
+    background-image: none;
+}
+
+#myCarousel .carousel-control.right {
+    background-image: none;
+}
+
+#two_col_container {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+#people-involved {
+    clear: both;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#sponsors-heading {
+    margin-bottom: 20px;
+}
+
+.girls_encoded_recent_news {
+    background-color: #e7e7e7;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.profile_pic {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    border-radius: 15px;
+}
+
+.profile_pic_nonrounded {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+}
+
+#current, #alumni {
+    text-align: center;
+}
+
+#copyright {
+    clear: both;
+    margin-bottom: 30px;
+}
+
+/* Girls Encoded Get Involved Page */
+#get-involved-row {
+    margin-top: 20px;
+}
+
+#call-for-ideas {
+    background-color: #cc6600;
+}
+
+p.lead-nomargin {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.4;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#sponsor-heading-gold {
+    background-color: #ffcb05;
+    padding: 10px;
+    color: #444;
+}
+
+#sponsor-heading-silver {
+    background-color: #d3d3d3;
+    padding: 10px;
+    color: #444;
+}
+
+#sponsor-heading-bronze {
+    background-color: #E6801A;
+    padding: 10px;
+    color: #444;
+}
+
+#sponsor-heading-platinum {
+    background-color: #C09A7E;
+    padding: 10px;
+    color: #444;
+}
+
+#italics {
+    font-style: italic;
+}
+
+/* Girls Encoded Events Page */
+#events_content {
+    margin-top: 20px;
+}
+
+#event_panels {
+    float: left;
+    width: 60%;
+}
+
+#event_panels .panel-heading {
+    background-color: #83b2a8;
+}
+
+#events-left-image {
+    float: left;
+    border-radius: 15px;
+    margin: 5px 10px 5px 0;
+    width: 45%;
+}
+
+#events_recent_news {
+    float: right;
+    width: 39%;
+    margin-left: 1%;
+}
+
+#top_margin {
+    margin-top: 20px;
+}
