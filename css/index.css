@@ -352,3 +352,9 @@ p.lead-nomargin {
 #top_margin {
     margin-top: 20px;
 }
+
+/* Girls Encoded Ideas Page*/
+
+#sponsoring_event_panels .panel-heading {
+    background-color: #83b2a8;
+}
