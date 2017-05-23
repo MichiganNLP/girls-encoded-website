@@ -43,14 +43,14 @@ function processRecentNews(allText,pageCategory) {
             }
             entry = entry + '</p>';
         
-            if(appended < 8) { //Only show the most recent entries on the home page
+            if(appended < 5) { //Only show the most recent entries on the home page
                 $('#recent_news').append(entry);
                 appended = appended + 1;
             }
         }
 
 	//A little bit hack-y
-	if(appended == 8 && !last) {
+	if(appended == 5 && !last) {
 	    last = true;
     	    var pageCategory = $('meta[name=category]').attr("content");
     	    if(pageCategory == "LIT") {

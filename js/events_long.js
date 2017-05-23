@@ -39,12 +39,16 @@ $(document).ready(function() {
 function processEvents(allText,pageCategory) {
     arrData = parseCsv(allText);
     
-    var added = 0;
-    var entry = "";
+    var added_one = 0;
+	var added_two = 0;
+	var added_three = 0;
+    var entry_one = "";
+	var entry_two = "";
+	var entry_three = "";
     for (var i=1; i<arrData.length; i++) {
         var data = arrData[i];
         
-        var event = {title:data[0], description:data[1], image:data[2], image_alt:data[3], category:data[4]};
+        var event = {title:data[0], description:data[1], image:data[2], image_alt:data[3], category:data[4], block:data[5]};
 
         var allCats = event.category.split(',');
         var found = 0;
@@ -59,23 +63,61 @@ function processEvents(allText,pageCategory) {
             }
         }
         if(found==1) {
-            if(added % 2 == 0) {
-                if(added != 0) {
-                    entry = entry + '</div>'; //end row
-                }
-                entry = entry + '<div class="row">'; //start row
-            }
-        
-            entry = entry + '<div class="col-sm-6"><div class="panel panel-default"><div class="panel-heading"><h3 class="panel-title">' + event.title + '</h3></div><div class="panel-body">'
-            if(event.image) {
-                entry = entry + '<img id="events-left-image" src="images/' + event.image + '" alt="' + event.image_alt + '">';
-            }
-            entry = entry + event.description + '</div></div></div>';
-            
-            added = added + 1;
+			if(event.block == "CURRENT") {
+				if(added_one % 2 == 0) {
+					if(added_one != 0) {
+						entry_one = entry_one + '</div>'; //end row
+					}
+					entry_one = entry_one + '<div class="row">'; //start row
+				}
+			
+				entry_one = entry_one + '<div class="col-sm-6"><div class="panel panel-default"><div class="panel-heading"><h3 class="panel-title">' + event.title + '</h3></div><div class="panel-body">'
+				if(event.image) {
+					entry_one = entry_one + '<img id="events-left-image" src="images/' + event.image + '" alt="' + event.image_alt + '">';
+				}
+				entry_one = entry_one + event.description + '</div></div></div>';
+				
+				added_one = added_one + 1;
+			} else if(event.block == "PAST") {
+				if(added_two % 2 == 0) {
+					if(added_two != 0) {
+						entry_two = entry_two + '</div>'; //end row
+					}
+					entry_two = entry_two + '<div class="row">'; //start row
+				}
+			
+				entry_two = entry_two + '<div class="col-sm-6"><div class="panel panel-default"><div class="panel-heading"><h3 class="panel-title">' + event.title + '</h3></div><div class="panel-body">'
+				if(event.image) {
+					entry_two = entry_two + '<img id="events-left-image" src="images/' + event.image + '" alt="' + event.image_alt + '">';
+				}
+				entry_two = entry_two + event.description + '</div></div></div>';
+				
+				added_two = added_two + 1;
+			} else { //event.block == "AFFILIATED"
+				if(added_three % 2 == 0) {
+					if(added_three != 0) {
+						entry_three = entry_three + '</div>'; //end row
+					}
+					entry_three = entry_three + '<div class="row">'; //start row
+				}
+			
+				entry_three = entry_three + '<div class="col-sm-6"><div class="panel panel-default"><div class="panel-heading"><h3 class="panel-title">' + event.title + '</h3></div><div class="panel-body">'
+				if(event.image) {
+					entry_three = entry_three + '<img id="events-left-image" src="images/' + event.image + '" alt="' + event.image_alt + '">';
+				}
+				entry_three = entry_three + event.description + '</div></div></div>';
+				
+				added_three = added_three + 1;
+			}
         }
     }
     
-    entry = entry + '</div>'; //end row
-    $('#event_panels').append(entry);
+    entry_one = entry_one + '</div>'; //end row
+    $('#event_panels_one').append(entry_one);
+	
+    entry_two = entry_two + '</div>'; //end row
+    $('#event_panels_two').append(entry_two);
+    
+	entry_three = entry_three + '</div>'; //end row
+    $('#event_panels_three').append(entry_three);
 }
