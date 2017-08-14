@@ -359,3 +359,15 @@ p.lead-nomargin {
 #sponsoring_event_panels .panel-heading {
     background-color: #83b2a8;
 }
+
+/* Girls Encoded Ada Lovelace Opera Page*/
+
+.lovelaceImage {
+    float: left;
+    width: 15%;
+    margin: 0 20px 20px 10px;
+}
+
+.bottomHr {
+    clear: both;
+}
