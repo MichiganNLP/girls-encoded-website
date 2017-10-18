@@ -278,6 +278,13 @@ p.bibtex {
     margin-bottom: 30px;
 }
 
+/* Girls Encoded Ada Lovelace Page */
+#lovelacePoster {
+    width: 70%;
+    margin: 20px auto;
+    display: block;
+}
+
 /* Girls Encoded Get Involved Page */
 #get-involved-row {
     margin-top: 20px;
