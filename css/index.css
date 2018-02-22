@@ -339,6 +339,14 @@ p.lead-nomargin {
 }
 
 /* Girls Encoded Events Page */
+#panel_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 90%;
+}
+
 #events_content {
     margin-top: 20px;
 }
