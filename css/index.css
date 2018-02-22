@@ -330,6 +330,14 @@ p.lead-nomargin {
     font-style: italic;
 }
 
+#sponsorship_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 90%;
+}
+
 /* Girls Encoded Events Page */
 #events_content {
     margin-top: 20px;
