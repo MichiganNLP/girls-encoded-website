@@ -1643,11 +1643,44 @@
 				border: 0;
 			}
 
+		#header h2 {
+			font-family: 'Arvo';
+			font-weight: 300;
+			color: #ed786a;
+			text-shadow: 0.05em 0.075em 0 rgba(0,0,0,0.1);
+		}
+
 		#header p {
 			text-transform: uppercase;
 			font-weight: 400;
 			color: #888;
 		}
+
+/* Teaser */
+
+#teaser {
+	font-family: 'Arvo';
+	font-size: 20pt;
+	line-height: 1;
+	color: #ed786a;
+	text-shadow: 0.05em 0.075em 0 rgba(0,0,0,0.1);
+	text-align: center;
+	margin: 1em 0 1em 0;
+}
+
+/* Promo */
+#promo {
+	text-align: center;
+	font-weight: 150;
+	margin-bottom: 1em;
+	color: 000000;
+}
+
+#promo-ul {
+	text-align: center;
+	color: #ed786a;
+	font-weight: bold;
+}
 
 /* Nav */
 
@@ -1747,7 +1780,6 @@
 /* Copyright */
 
 	#copyright {
-		border-top: solid 2px #e5e5e5;
 		text-align: center;
 	}
 
@@ -1759,7 +1791,7 @@
 
 			body, input, textarea, select {
 				line-height: 1.65em;
-				font-size: 13pt;
+				font-size: 16pt;
 			}
 
 			h2 {
@@ -1836,22 +1868,23 @@
 			}
 
 			#main-wrapper {
-				padding: 6em 0 6em 0;
+				padding: 1em 0 2em 0;
 			}
 
 			#footer-wrapper {
-				padding: 6em 0 8em 0;
+				padding: 0 0 0 0;
 			}
 
 		/* Header */
 
 			#header {
-				padding: 14em 0 7em 0;
+				padding: 9em 0 3em 0;
 			}
 
 				#header h1 {
 					font-size: 3em;
 					letter-spacing: 13px;
+					line-height: 1;
 				}
 
 				#header p {
@@ -2019,8 +2052,8 @@
 		/* Copyright */
 
 			#copyright {
-				margin-top: 6em;
-				padding-top: 4em;
+				margin-top: 1em;
+				padding-top: 0;
 			}
 
 	}
@@ -2108,8 +2141,8 @@
 		/* Copyright */
 
 			#copyright {
-				margin-top: 5em;
-				padding-top: 2em;
+				margin-top: 1em;
+				padding-top: 0;
 			}
 
 	}
@@ -2482,8 +2515,8 @@
 		/* Copyright */
 
 			#copyright {
-				margin-top: 2em;
-				padding-top: 2em;
+				margin-top: 1em;
+				padding-top: 0;
 			}
 
 	}
