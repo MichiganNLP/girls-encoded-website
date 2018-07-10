@@ -2,6 +2,132 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600|Arvo:700");
 
 /*
+	Index
+*/
+#red_background{
+	background-color: #df4826;
+	color: #ffffff;
+	display: table;
+	width: 100%;
+	padding: 1em 5% 1em 5%;
+}
+
+#left {
+	float: left;
+}
+
+#right {
+	float: right;
+}
+
+#title {
+	color: #ffffff;
+	font-size: 250%;
+	margin: 0 0 0.3em 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+#top_title {
+	font-size: 110%;
+	margin: 0 0 1.5em;
+	color: #ffffff;
+}
+
+#bottom_title {
+	font-size: 110%;
+	color: #ffffff;
+	margin: 2em 0 0.4em 0;
+}
+
+#bold {
+	font-weight: bold;
+}
+
+#image_right {
+	height: 200px;
+}
+
+#main_text {
+	margin: 0 3em 0 3em;
+}
+
+#dotted_rule {
+	border-top: 1px dashed #df4826;
+}
+
+#rule {
+	background: #df4826;
+	height: 10px;
+}
+
+#paragraph1 {
+	color: #736b6e;
+}
+
+#bullet_head {
+	color: #736b6e;
+	margin: 2em 0 0 0;
+}
+
+#bullet {
+	color: #736b6e;
+	margin: 0;
+}
+
+/*
+	Instructors
+*/
+
+#instructors-title {
+	margin: 1em 0 0 0;
+	color: #ffffff;
+	font-size: 250%;
+	padding: 0;
+	font-weight: bold;
+}
+
+#instructors-bottom_title {
+	font-size: 110%;
+	color: #ffffff;
+	margin: 0.5em 0 2em 0;
+}
+
+#instructor_wrapper {
+	display: table;
+	width: 100%;
+	padding: 1em 3em 1em 3em;
+	margin-top: -2em;
+}
+
+#instructor_left {
+	float: left;
+	width: 50%;
+	padding-right: 1em;
+}
+
+#instructor_right {
+	float: right;
+	width: 50%;
+	padding-left: 1em;
+}
+
+#instructor_image {
+	width: 200px;
+	margin: 0;
+}
+
+#email {
+	color: #736b6e;
+}
+
+#instructor_name {
+	color: #df4826;
+	font-size: 120%;
+	margin: 0.25em 0 1em 0;
+}
+
+/*
 	Strongly Typed by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
@@ -9,7 +135,7 @@
 
 /* Reset */
 
-	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, header-shortened {
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, header-shortened, header-mainpage {
 		margin: 0;
 		padding: 0;
 		border: 0;
@@ -18,7 +144,7 @@
 		vertical-align: baseline;
 	}
 
-	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, header-shortened {
+	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, header-shortened, header-mainpage {
 		display: block;
 	}
 
@@ -1632,6 +1758,9 @@
 		box-shadow: inset 0px -8px 0px 0px #fff, inset 0px -10px 0px 0px #e5e5e5;
 	}
 
+	#header-mainpage {
+		position: relative;
+	}
 		#header h1, #header-shortened h1 {
 			font-family: 'Arvo';
 			font-weight: 700;
@@ -1883,6 +2012,11 @@
 
 			#header-shortened {
 				padding: 9em 0 1em 0;
+			}
+
+			#header-mainpage {
+				padding: 7em 0 0 0;
+				margin: 0;
 			}
 
 				#header h1, #header-shortened h1 {
