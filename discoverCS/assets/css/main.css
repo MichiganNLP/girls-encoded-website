@@ -31,13 +31,13 @@
 }
 
 #top_title {
-	font-size: 110%;
+	font-size: large;
 	margin: 0 0 1.5em;
 	color: #ffffff;
 }
 
 #bottom_title {
-	font-size: 110%;
+	font-size: large;
 	color: #ffffff;
 	margin: 2em 0 0.4em 0;
 }
@@ -51,8 +51,13 @@
 	height: 200px;
 }
 
+#main_page_wrapper {
+	background: #ffffff;
+}
+
 #main_text {
-	margin: 0 3em 0 3em;
+	padding: 3em 5% 3em 5%;
+	font-size: large;
 }
 
 #dotted_rule {
@@ -95,7 +100,7 @@
 }
 
 #instructors-bottom_title {
-	font-size: 110%;
+	font-size: large;
 	color: #ffffff;
 	margin: 0.5em 0 2em 0;
 }
@@ -103,7 +108,7 @@
 #instructor_wrapper {
 	display: table;
 	width: 100%;
-	padding: 1em 3em 1em 3em;
+	padding: 1em 5% 1em 5%;
 	margin-top: -2em;
 }
 
@@ -115,12 +120,14 @@
 	float: left;
 	width: 50%;
 	padding-right: 1em;
+	font-size: large;
 }
 
 #instructor_right {
 	float: right;
 	width: 50%;
 	padding-left: 1em;
+	font-size: large;
 }
 
 #instructor_image {
@@ -1771,6 +1778,7 @@
 
 	#header-mainpage {
 		position: relative;
+		width: 100%
 	}
 		#header h1, #header-shortened h1 {
 			font-family: 'Arvo';
