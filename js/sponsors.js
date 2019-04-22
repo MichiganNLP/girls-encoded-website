@@ -43,7 +43,7 @@ function processSponsors(allText,pageCategory) {
 				}
 				totalWidth = totalWidth + parseInt(sponsor.width);
 				
-				entry = '<div class="col-md-' + sponsor.width*3 + '" id="sponsor_cell"><img src="../images/sponsors/'+ sponsor.image + '" class="profile_pic_nonrounded" alt="' + sponsor.name + '"><p class="lead"><b></div>';
+				entry = '<div class="col-md-' + sponsor.width*3 + '" id="sponsor_cell"><img src="'+window.location.href+'/../images/sponsors/'+ sponsor.image + '" class="profile_pic_nonrounded" alt="' + sponsor.name + '"><p class="lead"><b></div>';
 				$('#sponsors_row' + rowNum).append(entry);
         	
 			} else { //past=="TRUE"
@@ -54,7 +54,7 @@ function processSponsors(allText,pageCategory) {
 				}
 				totalWidth_past = totalWidth_past + parseInt(sponsor.width);
 				
-				entry = '<div class="col-md-' + sponsor.width*3 + '" id="sponsor_cell"><img src="../images/sponsors/'+ sponsor.image + '" class="profile_pic_nonrounded" alt="' + sponsor.name + '"><p class="lead"><b></div>';
+				entry = '<div class="col-md-' + sponsor.width*3 + '" id="sponsor_cell"><img src="'+window.location.href+'/../images/sponsors/'+ sponsor.image + '" class="profile_pic_nonrounded" alt="' + sponsor.name + '"><p class="lead"><b></div>';
 				$('#past_sponsors_row' + rowNum_past).append(entry);
 			}
 		}
