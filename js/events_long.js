@@ -4,7 +4,7 @@ $(document).ready(function() {
     //Dynamically load recent news
      $.ajax({
         type: "GET",
-        url: "../data/events.csv",
+        url: window.location.href + "/../data/events.csv",
         dataType: "text",
         success: function(data) {processEvents(data,pageCategory);}
     });
@@ -73,7 +73,7 @@ function processEvents(allText,pageCategory) {
 			
 				entry_one = entry_one + '<div class="col-sm-6"><div class="panel panel-default"><div class="panel-heading"><h3 class="panel-title">' + event.title + '</h3></div><div class="panel-body">'
 				if(event.image) {
-					entry_one = entry_one + '<img id="events-left-image" src="images/' + event.image + '" alt="' + event.image_alt + '">';
+					entry_one = entry_one + '<img id="events-left-image" src="'+window.location.href+'/../images/' + event.image + '" alt="' + event.image_alt + '">';
 				}
 				entry_one = entry_one + event.description + '</div></div></div>';
 				
@@ -88,7 +88,7 @@ function processEvents(allText,pageCategory) {
 			
 				entry_two = entry_two + '<div class="col-sm-6"><div class="panel panel-default"><div class="panel-heading"><h3 class="panel-title">' + event.title + '</h3></div><div class="panel-body">'
 				if(event.image) {
-					entry_two = entry_two + '<img id="events-left-image" src="images/' + event.image + '" alt="' + event.image_alt + '">';
+					entry_two = entry_two + '<img id="events-left-image" src="'+window.location.href+'/../images/' + event.image + '" alt="' + event.image_alt + '">';
 				}
 				entry_two = entry_two + event.description + '</div></div></div>';
 				
@@ -103,7 +103,7 @@ function processEvents(allText,pageCategory) {
 			
 				entry_three = entry_three + '<div class="col-sm-6"><div class="panel panel-default"><div class="panel-heading"><h3 class="panel-title">' + event.title + '</h3></div><div class="panel-body">'
 				if(event.image) {
-					entry_three = entry_three + '<img id="events-left-image" src="images/' + event.image + '" alt="' + event.image_alt + '">';
+					entry_three = entry_three + '<img id="events-left-image" src="'+window.location.href+'/../images/' + event.image + '" alt="' + event.image_alt + '">';
 				}
 				entry_three = entry_three + event.description + '</div></div></div>';
 				
