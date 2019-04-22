@@ -4,7 +4,7 @@ $(document).ready(function() {
     //Dynamically load sponsors
      $.ajax({
         type: "GET",
-        url: "/data/sponsors.csv",
+        url: window.location.href + "/../data/sponsors.csv",
         dataType: "text",
         success: function(data) {processSponsors(data,pageCategory);}
     });
