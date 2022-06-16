@@ -5,7 +5,7 @@
 	Index
 */
 #red_background{
-	background-color: #df4826;
+	background-color: #00274C;
 	color: #ffffff;
 	display: table;
 	width: 100%;
@@ -61,11 +61,11 @@
 }
 
 #dotted_rule {
-	border-top: 1px dashed #df4826;
+	border-top: 1px dashed #00274C;
 }
 
 #rule {
-	background: #df4826;
+	background: #00274C;
 	height: 10px;
 }
 
@@ -149,7 +149,7 @@
 }
 
 #instructor_name {
-	color: #df4826;
+	color: #00274C;
 	font-size: 120%;
 	margin: 0.25em 0 1em 0;
 }
@@ -1275,12 +1275,12 @@
 		}
 
 		a:hover {
-			color: #ed786a;
+			color: #FFCB05;
 			border-bottom-color: rgba(255, 255, 255, 0);
 		}
 
 			a:hover strong {
-				color: #ed786a;
+				color: #FFCB05;
 			}
 
 	strong, b {
@@ -1602,7 +1602,7 @@
 		-webkit-appearance: none;
 		position: relative;
 		display: inline-block;
-		background: #ed786a;
+		background: #FFCB05;
 		color: #fff !important;
 		text-transform: uppercase;
 		border-radius: 4px;
@@ -1638,7 +1638,7 @@
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background: #ed786a;
+			background: #FFCB05;
 		}
 
 		input[type="button"].alt,
@@ -1792,7 +1792,7 @@
 		#header h1, #header-shortened h1 {
 			font-family: 'Arvo';
 			font-weight: 700;
-			color: #ed786a;
+			color: #FFCB05;
 			text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
 		}
 
@@ -1803,7 +1803,7 @@
 		#header h2, #header-shortened h2 {
 			font-family: 'Arvo';
 			font-weight: 300;
-			color: #ed786a;
+			color: #FFCB05;
 			text-shadow: 0.05em 0.075em 0 rgba(0,0,0,0.1);
 		}
 
@@ -1819,7 +1819,7 @@
 	font-family: 'Arvo';
 	font-size: 20pt;
 	line-height: 1;
-	color: #ed786a;
+	color: #FFCB05;
 	text-shadow: 0.05em 0.075em 0 rgba(0,0,0,0.1);
 	text-align: center;
 	margin: 1em 0 1em 0;
@@ -1835,7 +1835,7 @@
 
 #promo-ul {
 	text-align: center;
-	color: #ed786a;
+	color: #FFCB05;
 	font-weight: bold;
 }
 
@@ -1881,12 +1881,12 @@
 			}
 
 		#nav > ul > li.active > a:before, #nav > ul > li:hover > a:before {
-			background: #ED786A;
+			background: #FFCB05;
 			color: #fff;
 		}
 
 		#nav > ul > li.active > a > span, #nav > ul > li:hover > a > span {
-			color: #ED786A;
+			color: #FFCB05;
 		}
 
 /* Features */
@@ -2148,7 +2148,7 @@
 					-webkit-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
 					-ms-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
 					transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
-					color: #ed786a;
+					color: #FFCB05;
 				}
 
 		/* Banner */
